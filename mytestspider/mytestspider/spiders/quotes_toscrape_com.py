@@ -1,7 +1,7 @@
 import scrapy
 from ..items import MytestspiderItem
 
-class ZeldaItemsSpider(scrapy.Spider):
+class QuotesSpider(scrapy.Spider):
     name = 'quotes_toscrape_com'
     start_urls = ['http://quotes.toscrape.com/']
 
